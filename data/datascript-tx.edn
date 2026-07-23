@@ -1,0 +1,49 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;; Provenance: ZTD, ZOR and OPZ corroborated via zakon.hr's consolidated-text NN
+;; citation headers (full amendment chains, no gaps); ZPSU (the FDI-screening
+;; flagship's own statute) corroborated via three independent official sources
+;; (zakon.hr full text, narodne-novine.nn.hr primary gazette text, mfin.gov.hr
+;; explanatory notice) — see src/statute/facts.cljc docstring for the full
+;; disclosure.
+
+[#:statute{:id "hrv.ztd-zakon-o-trgovackim-drustvima"
+           :title "Zakon o trgovačkim društvima (Companies Act)"
+           :jurisdiction "HRV"
+           :kind :law
+           :law-number "NN 111/93, 34/99, 121/99, 52/00, 118/03, 107/07, 146/08, 137/09, 125/11, 152/11, 111/12, 68/13, 110/15, 40/19, 34/22, 18/23 (pročišćeni tekst)"
+           :url "https://www.zakon.hr/z/546/zakon-o-trgova%C4%8Dkim-dru%C5%A1tvima"
+           :url-provenance :zakon-hr-consolidated-text
+           :enacted-date "1993-01-01"
+           :retrieved-at "2026-07-23"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "hrv.zor-zakon-o-radu"
+           :title "Zakon o radu (Labour Act)"
+           :jurisdiction "HRV"
+           :kind :law
+           :law-number "NN 93/14, 127/17, 98/19, 151/22, 46/23, 64/23 (pročišćeni tekst)"
+           :url "https://www.zakon.hr/z/307/zakon-o-radu"
+           :url-provenance :zakon-hr-consolidated-text
+           :enacted-date "2014-08-07"
+           :retrieved-at "2026-07-23"
+           :topic [:labor :employment]}
+ #:statute{:id "hrv.opz-opci-porezni-zakon"
+           :title "Opći porezni zakon (General Tax Act)"
+           :jurisdiction "HRV"
+           :kind :law
+           :law-number "NN 115/16, 106/18, 121/19, 32/20, 42/20, 114/22, 152/24, 151/25 (pročišćeni tekst)"
+           :url "https://www.zakon.hr/z/100/opci-porezni-zakon"
+           :url-provenance :zakon-hr-consolidated-text
+           :enacted-date "2016-12-31"
+           :retrieved-at "2026-07-23"
+           :topic [:tax]}
+ #:statute{:id "hrv.zpsu-zakon-o-provjeri-stranih-ulaganja"
+           :title "Zakon o provjeri stranih ulaganja (Act on the Verification of Foreign Investments)"
+           :jurisdiction "HRV"
+           :kind :law
+           :law-number "NN 136/2025"
+           :url "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_11_136_2010.html"
+           :url-provenance :official-narodne-novine-gazette
+           :enacted-date "2025-11-13"
+           :retrieved-at "2026-07-23"
+           :topic [:foreign-investment :national-security]}]

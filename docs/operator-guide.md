@@ -8,8 +8,14 @@
    prior filing history in Croatia if any.
 3. Run the advisor in read-only mode against EOJN (eojn.nn.hr).
 4. Compare the checklist against the client's current documentation
-   (Sudski registar status, MBS registration number).
-5. Enable gated filing-draft assistance once the Market-Entry Compliance
+   (Sudski registar status, MBS registration number, OIB assignment).
+5. If the client's own Croatian market presence was established by a
+   foreign investor acquiring a "kvalificirani udio" (>= 10% of the
+   capital/voting rights) of an existing Croatian company, confirm the
+   Zakon o provjeri stranih ulaganja (NN 136/2025) approval application
+   was filed with Ministarstvo financija BEFORE the resulting change
+   was filed for Sudski registar registration, before proceeding.
+6. Enable gated filing-draft assistance once the Market-Entry Compliance
    Governor contract is trusted; actual submission always requires human
    sign-off.
 
