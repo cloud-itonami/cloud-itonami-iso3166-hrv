@@ -88,10 +88,10 @@ invariant).
   different from both Slovenia (EU member, whose ZSInv is an
   amended-in-place 2013-era law administered by the Ministry of
   Economy) and Serbia (EU-candidate, explicitly no FDI-screening
-  regime) -- see `src/marketentry/governor.cljc` docstring for the full
+  regime) -- see `src/marketentry/governor.kotoba` docstring for the full
   reasoning.
 
-See `src/marketentry/facts.cljc` and `src/statute/facts.cljc` for the
+See `src/marketentry/facts.kotoba` and `src/statute/facts.kotoba` for the
 full citation trail. Every law cited carries a complete Narodne novine
 (NN) gazette-number chain, independently confirmed this session against
 zakon.hr's own consolidated-text citation headers -- no undisclosed
@@ -135,7 +135,7 @@ This repo carries a **country-level regional-culture catalog**
 Wave 1, in `com-junkawasaki/root`) — national dishes, protected products,
 beverages, crafts, festivals and heritage sites for Croatia:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring the `statute.facts` convention of the
   iso3166 siblings).
 - `schema/culture.edn` — DataScript schema.

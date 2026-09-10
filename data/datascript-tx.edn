@@ -1,10 +1,10 @@
-;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.kotoba
 ;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
 ;; Provenance: ZTD, ZOR and OPZ corroborated via zakon.hr's consolidated-text NN
 ;; citation headers (full amendment chains, no gaps); ZPSU (the FDI-screening
 ;; flagship's own statute) corroborated via three independent official sources
 ;; (zakon.hr full text, narodne-novine.nn.hr primary gazette text, mfin.gov.hr
-;; explanatory notice) — see src/statute/facts.cljc docstring for the full
+;; explanatory notice) — see src/statute/facts.kotoba docstring for the full
 ;; disclosure.
 
 [#:statute{:id "hrv.ztd-zakon-o-trgovackim-drustvima"

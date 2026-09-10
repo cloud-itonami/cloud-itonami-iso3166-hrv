@@ -95,7 +95,7 @@ Sudski registar filing fact this actor's own required-evidence
 checklist already tracks (Čl. 6(3), 11(1)(a), 11(3), 12(3)) -- a
 genuinely on-domain hook, not a generic "before commencing business"
 framing borrowed from a sibling's shape. See
-`src/marketentry/governor.cljc` for the full reasoning.
+`src/marketentry/governor.kotoba` for the full reasoning.
 
 ## Boundary with adjacent actors (read before forking)
 
