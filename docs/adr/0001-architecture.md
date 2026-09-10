@@ -64,9 +64,9 @@ FDI-screening regimes:
 Adding a fabricated eu-establishment/NIP-style pair, or a copy-pasted
 PIB/ZSInv-shaped check without this law's OWN article-level hook, would
 have been dishonest; a smaller, single, genuinely grounded check is
-preferred. See `src/marketentry/governor.cljc` docstring for the full
-reasoning and citation trail, and `src/marketentry/facts.cljc` /
-`src/statute/facts.cljc` for the complete disclosure of what was
+preferred. See `src/marketentry/governor.kotoba` docstring for the full
+reasoning and citation trail, and `src/marketentry/facts.kotoba` /
+`src/statute/facts.kotoba` for the complete disclosure of what was
 independently confirmed this session -- every citation in this
 blueprint carries a complete NN (Narodne novine) gazette number chain
 sourced from zakon.hr's own consolidated-text citation headers, a
