@@ -9,7 +9,7 @@ ulaganja, NN 136/2025, in force since 13 November 2025, implementing
 EU Regulation 2019/452).
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 This repository designs a forkable OSS business for an independent
